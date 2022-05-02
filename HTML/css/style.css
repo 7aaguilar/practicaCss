@@ -155,6 +155,64 @@ body a {
 
 }
 
+@media only screen and (max-width: 600px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    #left-sidebar {
+        width: 60%;
+        display: block;
+        order: 2;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #right-sidebar {
+        width: 60%;
+        display: block;
+        order: 3;
+        margin-left: 0;
+    }
+
+    #content-container {
+        width: 60%;
+        display: block;
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    #left-sidebar {
+        width: 30%;
+        display: block;
+        order: 2;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #right-sidebar {
+        width: 30%;
+        display: block;
+        order: 3;
+        margin-left: 0;
+    }
+
+    #content-container {
+        width: 30%;
+        display: block;
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+}
+
 #producto1{
     width: 200px;
 }
@@ -278,7 +336,7 @@ ol, ul {
     padding-left: 0;
     margin-top: 0; }
 
-.info__card h4 {
+.info_carta h4 {
     font-size: 14px;
     font-weight: 700;
 }
@@ -287,7 +345,7 @@ ol, ul {
     margin-left: 20px;
 }
 
-#lista-cursos {
+#lista-productos {
     background-color: white;
     padding: 0px 0;
     margin-bottom: 5px;
@@ -295,7 +353,7 @@ ol, ul {
     margin-right: 10px;
 }
 
-.encabezado__cursos {
+.encabezado_tarjeta {
     display: block;
     color: red;
     align-items: center;
@@ -312,22 +370,22 @@ ol, ul {
     background-color: white;
 }
 
-.curso__item{
+.items{
     border: 1px solid rgba(0,0,0,0.25);
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.card__img, .imagen__curso{
+.card__img, .imagen_producto{
     width: 100%;
 }
 
-.info__card{
+.info_carta{
     padding: 10px 10px;
     position: relative;
     height: 120px;
 }
 
-.info__card *{
+.info_carta *{
     margin-bottom: 10px;
 }
 
@@ -336,7 +394,7 @@ ol, ul {
     color: red;
 }
 
-.discount{
+.descuento{
     color: black;
     font-weight: bold;
     float: right;
@@ -347,7 +405,7 @@ ol, ul {
     background-color: #9e9e9e;
 }
 
-.agregar-carrito{
+.agregar-al-carrito{
     background: red;
     padding: 5px 10px;
     border-radius: 6px;
@@ -359,7 +417,7 @@ ol, ul {
     bottom: 0;
 }
 
-.agregar-carrito:hover{
+.agregar-al-carrito:hover{
     background: #8a1500;
     color: white;
 }
