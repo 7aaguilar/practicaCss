@@ -124,8 +124,23 @@ body a {
     padding: 5;
 }
 
-/* To keep your site RESPONSIVE, make sure this variable matches the width for --container-width UNLESS 
---container-width is 100% - if it's 100%, you'll need to manually input a breakpoint. */
+.formulario-compra{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #b6b6b6;
+    color: rgb(133, 0, 0);
+    border-color: gray;
+    border-style: dotted;
+    border-radius: 50px;
+}
+
+.brown#zo0{
+    font-size: large;
+    font-weight: 900;
+}
+
 @media only screen and (max-width: 800px) {
     .flex {
         flex-wrap: wrap;
